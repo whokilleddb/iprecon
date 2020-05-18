@@ -21,22 +21,22 @@ Make sure the the required Libraries are installed correctly.
 Clone the repository into your system by typing :
 
 ```
-git clone https://github.com/whokilleddb/iprecon
+$ git clone https://github.com/whokilleddb/iprecon
 
 ```
 
 Once cloned , cd into the directory and install the requirements as follows :
 
 ```
-cd iprecon
-pip3 install -r requirements.txt
+$ cd iprecon
+$ pip3 install -r requirements.txt
 
 ```
  
 Now type run the script using :
 
 ```
-python3 iprecon.py
+$ python3 iprecon.py
 
 ```
 
@@ -47,7 +47,7 @@ The following should give a similar output as :
 To get help about the operations , type in :
 
 ```
-python3 iprecon.py -h
+$ python3 iprecon.py -h
 
 ```
 
@@ -59,7 +59,7 @@ To get the information about any IP Address or Website type in :
 
 
 ```
-python3 iprecon.py -i example.com #You can put in any IP or domain name. I have used google.com
+$ python3 iprecon.py -i example.com #You can put in any IP or domain name. I have used google.com
 
 ```
 If your input is valid , you will get an output as such :
@@ -72,6 +72,6 @@ If it is not valid or otherwise , the output screen will be as such :
 
 ## API Source :
 
-The application get's it's information from (https://ip-api.com/)
+The API used has been taken from [here](https://ip-api.com/)
 
 
