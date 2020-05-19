@@ -55,8 +55,8 @@ To get the information about any IP Address or Website type in :
 
 ```
 $ python3 iprecon.py -i example.com #You can put in any IP or domain name. I have used google.com
-``
-`
+```
+
 If your input is valid , you will get an output as such :
 
 ![](https://github.com/whokilleddb/iprecon/blob/master/Images/3.png)
